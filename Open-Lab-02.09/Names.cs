@@ -6,7 +6,8 @@ namespace Open_Lab_02._09
     {
         public string ConcatName(string firstName, string lastName)
         {
-            throw new NotImplementedException();
-        }
+            string name = ConcatName(lastName, firstName);
+            return name;
+        }    
     }
 }
